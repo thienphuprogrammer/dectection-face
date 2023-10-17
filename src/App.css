@@ -1,0 +1,142 @@
+.app {
+  display: flex;
+}
+
+canvas {
+  position: absolute;
+}
+
+.navbar {
+  height: 50px;
+  background-color: #4064ac;
+  display: flex;
+  align-items: center;
+  color: white;
+  font-weight: bold;
+  padding: 0px 100px;
+  font-size: 20px;
+}
+
+.new-post-card {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.add-post {
+  display: flex;
+}
+
+label {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.add-img {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px;
+  width: 25px;
+  cursor: pointer;
+}
+
+.post-form {
+  display: flex;
+  flex-direction: column;
+  width: 500px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+}
+
+.avatar {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.post-input {
+  margin-bottom: 10px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+}
+
+.container {
+  height: calc(100vh - 50px);
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.container--left {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.container--right {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.right-input {
+  margin-bottom: 10px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+}
+
+.right-btn {
+  padding: 10px 20px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.fiend-input {
+  position: absolute;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  z-index: 1;
+  background-color: white; 
+  color: black;
+}
+
+.friends {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+  font-size: 20px;
+}
+
+.friend {
+  display: flex;
+  align-items: center;
+  margin-right: 10px;
+}
+
+.name {
+  margin-right: 10px;
+  font-weight: bold;
+}
+
+.right-avatar {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.right-name {
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
